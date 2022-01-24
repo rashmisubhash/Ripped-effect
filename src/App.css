@@ -1,0 +1,59 @@
+body {
+  background: pink;
+  padding: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+.ripped-effect {
+  margin: 5rem;
+  padding: 5rem;
+  border: 6px double rebeccapurple;
+}
+
+.container {
+  margin: 0rem 5rem;
+  padding: 0rem 5rem;
+  border: 6px double rebeccapurple;
+}
+
+/* Ripped effect */
+
+.bottom-ripped article,
+.top-ripped article {
+  background: white;
+  padding: 20px;
+  position: relative;
+}
+
+.bottom-ripped article::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  height: 20px;
+  width: 100%;
+  left: 0;
+  color: red;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg)
+    bottom;
+  background-size: 200%;
+}
+
+.top-ripped {
+  margin-top: 3rem;
+}
+
+.top-ripped article::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  height: 20px;
+  width: 100%;
+  left: 0;
+  color: red;
+  rotate: 180deg;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg)
+    bottom;
+  background-size: 200%;
+}
+
