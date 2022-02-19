@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Ripped effect using CSS!!</h1>
+        <h1>Ripped effect using CSS!!!</h1>
 
         <div className="ripped-effect">
           <div class="bottom-ripped">
