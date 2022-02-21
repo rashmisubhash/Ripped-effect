@@ -15,9 +15,8 @@ function App() {
               </p>
             </article>
           </div>
-        </div>
 
-        <div class="top-ripped">
+          <div class="top-ripped">
             <article>
               <p>
                 Playing with svg image to get the ripped page look. Change the
@@ -25,6 +24,8 @@ function App() {
               </p>
             </article>
           </div>
+          
+        </div>
       </div>
     </div>
   );
